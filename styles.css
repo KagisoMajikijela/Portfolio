@@ -89,3 +89,50 @@
     margin-top: 40px;
     position: relative;
 }
+/*Projects*/
+.projects{
+    border: 2px purple dotted;
+    margin-top: 60px auto;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects h1{
+  width: 100%;
+
+}
+.projects-tiles{
+    border: 3px purple dotted;
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 12px;
+    flex-grow: auto;
+}
+
+/*about me*/
+.tools-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    border: 3px dotted purple;
+    flex-wrap: wrap;
+}
+/* .tools-section h1{
+    
+} */
+.tools-logo{
+    width: 100px;
+    height: auto;
+}
+.tools-container{
+    border: 3px dotted purple;
+    margin: 20px;
+}
