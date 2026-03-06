@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth 1s;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-container{
+    background-color: rgb(126, 82, 167);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    margin-left:left;
+    margin-right: auto;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-top:5px;
+    color: rgb(236, 236, 236);
+    font-size: 23px;
+    font-weight: bold;
+}
+.nav-content{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px ;
+    margin-right: 15px;
+}
+.nav-items{ 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-items a{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    font-size: 20px;;
+
+}
+/*hero content*/
+
+.hero-container{
+    border: 3px solid purple;
+    margin: 12px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+.pic-me{
+    margin: 20px;
+    width: 320px;
+    border-radius:12px;
+   flex-wrap: wrap;
+    flex-grow: 1fr;
+}
+.btn-getintouch{
+    width: 150px;
+    margin: 30px ;
+    box-shadow: 0px 0px 30px 0px pink ;/*To be Changed to hover effect*/
+    float: left; 
+    padding: 10px;
+    border-radius: 12px;
+    background-color:  rgb(126, 82, 167);
+    color: rgb(250, 250, 250);
+    border: none;
+    margin-top: 40px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    flex-wrap: wrap;
+}
+/*Projects*/
+.projects{
+    margin: 12px;
+    border-radius: 12px;
+    background-color: rgb(126, 82, 167);
+    border: 2px purple dotted;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.hero-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+.projects h1{
+  font-size: 30px;
+  color: rgb(236, 236, 236);
+  width: 100%;
+}
+.projects h2{
+    color: aliceblue;
+}
+.projects p{
+    color: aliceblue;
+}
+.projects-tiles{
+    border: 3px rgb(253, 62, 253) dotted;
+    box-shadow: 0px 0px 30px 0px pink ;/*To be Changed to hover effect*/
+    width: 220px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+}
+.btn-projects{
+    width: 100px;
+    background: plum;
+    height: 32px;
+    border: solid 2px purple;
+    color: aliceblue;
+    border-radius: 12px;
+    margin: 10px auto;
+}
+
+.joke-gen-logo{
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.tools-section{
+    border: 3px solid purple;
+    margin: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    flex-wrap: wrap;
+}
+
+.tools-container{
+    background-color:rgb(126, 82, 167); 
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.tools-section h1{
+    font-size: 30px;
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+    text-decoration: 3px underline purple;
+}
+
+.tools-logo{
+    width: 100px;
+}
+
+.footer-nav-container{
+    border: 3px solid purple;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center;
+    background: rgb(126, 82, 167);
+    
+}
+.footer-nav-items a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-nav-container li {
+    list-style: none;
+}
